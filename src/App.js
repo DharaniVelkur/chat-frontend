@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import io from 'socket.io-client';
 import Chat from './Chat';
-const socket =io.connect("https://chat-server-t9vx.onrender.com");
+const socket =io.connect("https://chat-backend-c38z.onrender.com");
 function App() {
   const [username,setUsername]=useState("");
   const [room,setRoom]=useState("");
